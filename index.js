@@ -44,3 +44,17 @@ const multiply = (num1, num2) => {
 }
 
 multiply(5, 10023)
+
+const add = (num1, num2) => {
+    let sum = num1 + num2
+    if(num1 === num2) {
+        console.log(sum * 3)
+        return sum * 3
+    } else {
+        console.log(sum)
+        return sum
+    }
+}
+
+add(3, 3);
+add(5, 10);
