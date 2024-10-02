@@ -37,3 +37,10 @@ const untilNum = (num) => {
 }
 
 untilNum(60);
+
+const multiply = (num1, num2) => {
+    console.log(num1 * num2)
+    return num1 * num2
+}
+
+multiply(5, 10023)
