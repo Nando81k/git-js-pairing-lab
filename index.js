@@ -58,3 +58,13 @@ const add = (num1, num2) => {
 
 add(3, 3);
 add(5, 10);
+
+const isNegative = (number) => {
+    if (number < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isNegative(3));
+
