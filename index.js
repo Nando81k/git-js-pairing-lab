@@ -31,5 +31,9 @@ const multiplesOfThreeOrFive = () => { // initializing the arrow function
 multiplesOfThreeOrFive();// calling the the variable
 
 
-//  let untilNum(num) {
-    if (let i = 1; i )
+const untilNum = (num) => {
+    for (let i = 0; i <= num ; i++) 
+        console.log(i);
+}
+
+untilNum(60);
